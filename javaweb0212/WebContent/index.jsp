@@ -4,22 +4,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Forwording 과 Redirect의 차이</title>
+<title>Java Web 2일차</title>
 </head>
 <body>
-	<h3>결과 페이지로 포워딩</h3>
-	<form action="forward.jsp">
-		수1:<input type="text" size="10" name="first"/><br/>
-		수2:<input type="text" size="10" name="second"/><br/>
-		<input type="submit" value="더하기" />
-	</form>
-	
-	<h3>결과 페이지로 리다이렉트</h3>
-	<form action="redirect.jsp">
-		수1:<input type="text" size="10" name="first"/><br/>
-		수2:<input type="text" size="10" name="second"/><br/>
-		<input type="submit" value="더하기" />
-	</form>
+	<a href="./param/paraminput.jsp">파라미터 입력</a><br/>
+	<a href="./out/out.jsp">out 객체 이용</a><br/>
+	<a href="./app/application.jsp">application 객체</a><br/>
+	<a href="./result/input.jsp">포워딩과 리다이렉트의 차이</a><br/>
 	
 	<%@ page import = "java.io.*, java.sql.*" %>
 	<%
@@ -50,5 +41,11 @@
 		
 		pw.close();
 	%>
+	
 </body>
 </html>
+
+
+
+
+
