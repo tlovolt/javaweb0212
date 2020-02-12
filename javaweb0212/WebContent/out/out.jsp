@@ -22,8 +22,11 @@
 	
 	<div id="disp"></div>
 	<script>
+		//스크립트는 소스보기를 하면 코드 확인 가능 - 보안이 취약
+		//java 코드는 소스보기를 하면 결과만 보이지 소스 코드가 보이지 않음 - 보안이 스크립트보다 우수
 		var disp = document.getElementById("disp");
 		var html = "<select name='year'>";
+		
 		for(var i=1900; i<2021; i=i+1){
 			html = html + "<option value=" + i + ">" + i + "</option>";
 		}
