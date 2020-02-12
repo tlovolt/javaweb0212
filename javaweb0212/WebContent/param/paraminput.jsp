@@ -8,7 +8,7 @@
 </head>
 <body>
 	<!-- 링크에 파라미터 만들기 : 직접 파라미터 입력-->
-	<a href="./process.jsp?query=korea&name=park">대한민국</a><br/>
+	<a href="./process.jsp?query=한국&name=박문석">대한민국</a><br/>
 	<!-- form을 이용한 파라미터 만들기 -->
 	<h1>GET 방식 전송</h1>
 	<form method="get" action="get.jsp">
